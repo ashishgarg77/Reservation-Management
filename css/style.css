@@ -13,7 +13,7 @@
 #imgprev {left:0; background:url(images/left.gif) left center no-repeat}
 #imgnext {right:0; background:url(images/right.gif) right center no-repeat}
 #imglink {position:absolute; height:306px; width:100%; z-index:100; opacity:.4; filter:alpha(opacity=40)}
-.linkhover {background:url(images/link.gif) center center no-repeat}
+/* .linkhover {background:url(images/link.gif) center center no-repeat} */
 #thumbnails {margin-top:15px}
 #slideleft {float:left; width:20px; height:81px; background-image:url(../images/scroll-left.gif) center center no-repeat; background-color:#222}
 #slideleft:hover {background-color:#333}
