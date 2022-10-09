@@ -8,6 +8,12 @@ if (a==null || a=="")
   alert("Pls. Enter the room type");
   return false;
   }
+  var a=document.forms["addroom"]["type"].value;
+if (a==null || a=="")
+  {
+  alert("Pls. Enter the room type");
+  return false;
+  }
 var b=document.forms["addroom"]["rate"].value;
 if (b==null || b=="")
   {
