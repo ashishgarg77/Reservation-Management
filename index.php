@@ -1,6 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	<!------------------------SCROLL TO TOP - Made by ANUPESH KUMAR VERMA - HACKTOBER FEST 2022------------------------>
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+	rel="stylesheet"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+	rel="stylesheet"/>
+
+	<!-- MDB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+	rel="stylesheet"/>
+
+	<!-- MDB -->
+	<script	type="text/javascript" 	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js" ></script>
+	
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Tameraplazainn</title>
 <link rel="icon" href="logopreview.png" type="image" />
@@ -436,7 +453,7 @@ a:active {
   
 </div>
 
-<div class="footer" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px;">copyright © tameraplazainn 2011 - 2012 All Rights reserved</div>
+<div class="footer" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px;">copyright Â© tameraplazainn 2011 - 2012 All Rights reserved</div>
 <script type="text/javascript" src="compressed.js"></script>
 <script type="text/javascript">
 	$('slideshow').style.display='none';
@@ -456,5 +473,50 @@ a:active {
 		slideshow.init("slideshow","image","imgprev","imgnext","imglink");
 	}
 </script>
+	<!------------------------SCROLL TO TOP - Made by ANUPESH KUMAR VERMA - HACKTOBER FEST 2022------------------------>
+
+	<button type="button" class="btn btn-warning btn-xs" id="btn-back-to-top">
+  		<i class="fas fa-arrow-circle-up"> T O P</i>
+	</button>
+
+	<style>
+		#btn-back-to-top 
+		{
+		position: fixed;
+		bottom: 80px;
+		size: 10px;
+		right: 10px;
+		display: none;
+		color: azure;
+		}
+	</style>
+
+	<script>	
+		//Get the button
+		let mybutton = document.getElementById("btn-back-to-top");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () {
+		scrollFunction();
+		};
+
+		function scrollFunction() {
+		if (
+		document.body.scrollTop > 0 ||
+		document.documentElement.scrollTop > 0
+		) {
+		mybutton.style.display = "block";
+		} else {
+		mybutton.style.display = "none";
+		}
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		mybutton.addEventListener("click", backToTop);
+
+		function backToTop() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+	</script>
 </body>
 </html>
