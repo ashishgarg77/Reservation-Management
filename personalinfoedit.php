@@ -231,15 +231,25 @@ $(document).ready(function(){
 	}
 ?>
   <br />
+	 <h3>First Name * </h3>
  <input name="name" type="text" class="ed" id="name" /> 
+	  <h3>Last name* </h3>
  <input name="last" type="text" class="ed" id="last" /> <br />
+	  <h3>Address </h3>
  <input name="address" type="text" class="ed" id="address" /> 
+	  <h3>City* </h3>
  <input name="city" type="text" class="ed" id="city" /> <br />
+	  <h3>Country* </h3>
 <input name="country" type="text" class="ed" id="country" />
+	   <h3>PinCode* </h3>
   <input name="zip" type="text" class="ed" id="zip" /> <span id="errmsg"></span> <br />
+	   <h3>Email * </h3>
  <input name="email" type="text" class="ed" id="email" /> 
+	   <h3>Confirm Email </h3>
  <input name="cemail" type="text" class="ed" id="cemail" /> <br />
- <input name="password" type="text" class="ed" id="password" /> 
+	   <h3>Password* </h3>
+ <input name="password" type="text" class="ed" id="password" />
+	   <h3>Confrim password </h3>
  <input name="cnumber" type="text" class="ed" id="cnumber" /><span id="errmsg1"></span>  <br />
  <label>
  <input type="checkbox" name="condition" value="checkbox" />
@@ -299,7 +309,7 @@ $(document).ready(function(){
   
   
 </div>
-<div class="footer" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px;">copyright © tameraplazainn 2011 - 2012 All Rights reserved</div>
+<div class="footer" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px;">copyright Â© tameraplazainn 2011 - 2012 All Rights reserved</div>
 <script language='JavaScript' type='text/javascript'>
 function refreshCaptcha()
 {
