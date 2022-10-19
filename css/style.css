@@ -1,5 +1,8 @@
 
 #slideshow {list-style:none; color:#fff}
+body{
+  background-colour: blue;
+}
 #slideshow span {display:none}
 #wrapper {width:506px; margin:12px auto; display:none}
 #wrapper * {margin:0; padding:0}
