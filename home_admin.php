@@ -17,7 +17,22 @@
 			// jQuery("div#slider2").codaSlider()
 			// etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
 		});
-	</script>
+		let mybutton = document.getElementById("topBtn");
+
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop >30) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+		</script>
 	
 	<style type="text/css">
 <!--
@@ -93,7 +108,7 @@ if ($_SESSION['SESS_FIRST_NAME']=="frontdesk"){
 	
 	
 	
-	
+	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 <div class="right3">
   
     <div class="slider-wrap">
@@ -457,6 +472,6 @@ echo '<br>';
   
   
 </div>
-<div class="footer" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px;">copyright © tameraplazainn 2011 - 2012 All Rights reserved</div>
+<div class="footer" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px;">copyright Â© tameraplazainn 2011 - 2012 All Rights reserved</div>
 </body>
 </html>
