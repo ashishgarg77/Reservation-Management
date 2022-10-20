@@ -1,2 +1,10 @@
 # Reservation-Management
-This is an software to manage the reservations of hotels
+This is an website which manges the reservation for the hotel . 
+
+# Tech Stacks Used
+
+- HTML
+- CSS
+- JS
+- PHP
+- SQL
