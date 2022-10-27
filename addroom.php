@@ -93,11 +93,11 @@ height: 34px;
     <input name="rate" type="text" id="rate" class="ed" onkeypress="return isNumberKey(event)" /><br />
  Quantity<br />
     <input name="qty" type="text" id="qty" class="ed" onkeypress="return isNumberKey(event)" /><br />
- 
+
  Description<br />
     <input name="desc" type="text" class="ed" /><br />
-    
- Room Image: <br /><input type="file" name="image" class="ed"><br />
+  <h2>Add Room Image</h2>
+ <input type="file" name="image" class="ed" multiple ><br />
  
     <input type="submit" name="Submit" value="save" id="button1" />
  
