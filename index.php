@@ -313,6 +313,7 @@ a:active {
               <ul id="slideshow">
                 <li>
                   <h3>Superior Room (Triple Sharing)</h3>
+			<span>https://tse3.mm.bing.net/th?id=OIP.qLVYj_t-HU2Yyx3v_wFgLwHaE6&pid=Api&P=0</span>
                   <span>photos/2.jpg</span>
                   <p>Our Superior Rooms are  furnished with either  two or three single beds. These rooms are additionally equipped with an individually controlled air-conditioning, television set with more than 70-channel cable, large mirrors in the room and bathroom, hot and cold shower as well as wired and wireless internet access.<br />
                     Rate : Php 1,500.00</p>
